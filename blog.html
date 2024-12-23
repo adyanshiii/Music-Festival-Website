@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG - ELECTRO PULSE FESTIVAL</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ELECTRO PULSE</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="lineup.html">Lineup</a></li>
+            <li><a href="ticket.html">Tickets</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main class="blog-page">
+        <section class="hero-section blog-hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="FESTIVAL INSIGHTS">FESTIVAL INSIGHTS</h1>
+                <p class="subheader">BEHIND THE SCENES OF ELECTRO PULSE</p>
+            </div>
+        </section>
+
+        <section class="blog-filters">
+            <div class="filter-container">
+                <select id="category-filter" class="filter-select">
+                    <option value="">All Categories</option>
+                    <option value="artist-spotlight">Artist Spotlight</option>
+                    <option value="festival-prep">Festival Prep</option>
+                    <option value="music-tech">Music Technology</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="blog-grid">
+            <article class="blog-card" data-category="artist-spotlight">
+                <div class="blog-image">
+                    <img src="blog2.jpg">
+                </div>
+                <div class="blog-content">
+                    <h2>Digital Prophet: The Mind Behind the Music</h2>
+                    <p>An exclusive interview with our headlining techno artist about innovation and creativity.</p>
+                    <div class="blog-meta">
+                        <span>July 15, 2024</span>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-card" data-category="festival-prep">
+                <div class="blog-image">
+                    <img src="rad4.jpg">
+                </div>
+                <div class="blog-content">
+                    <h2>Ultimate Festival Survival Guide</h2>
+                    <p>Top tips to make the most of your Electro Pulse experience from veteran attendees.</p>
+                    <div class="blog-meta">
+                        <span>July 20, 2024</span>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-card" data-category="music-tech">
+                <div class="blog-image">
+                    <img src="blog1.jpg">
+                </div>
+                <div class="blog-content">
+                    <h2>Future of Electronic Music Production</h2>
+                    <p>Exploring cutting-edge technologies shaping the next generation of electronic music.</p>
+                    <div class="blog-meta">
+                        <span>July 25, 2024</span>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="newsletter-signup">
+            <h2>STAY CONNECTED</h2>
+            <form class="signup-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-icon">Instagram</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">TikTok</a>
+        </div>
+        <p>&copy; 2024 Electro Pulse Festival. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
